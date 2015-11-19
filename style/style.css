@@ -5,7 +5,7 @@ body {
 
 .awning {
 	width:100%;
-	height:160px;
+	height:170px;
 	background:url(../assets/images/awning.png) repeat-x ;
 	position:fixed;
 	top:0;
@@ -32,7 +32,7 @@ body {
 .header {
 	background:url(../assets/images/homeicecream.jpg) repeat;
 	border-bottom: 10px solid #fff;
-	margin-top:160px;
+	margin-top:135px;
 	height:380px;
 }
 
@@ -53,16 +53,13 @@ body {
 .nav {
 	color: #e6b2ed;
 	margin-top: 110px;
-	width:400px;
-	float-bottom:0;
-	padding:280px;
-	padding-left: 170px;
+	background-color:red;
+	background-color:#37373c;
 }
-.main-nav
-{
-	background-color:#a052ab;
-	margin-right:-5px;
+.main-nav {
+background-color:#a052ab;
 }
+
 .nav a{
 	color:inherit;
 	text-decoration: none;
@@ -74,18 +71,24 @@ body {
 #nav {
     background-color: #222;
 }
+
 #nav_wrapper {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
+    float:right;
+    width:406px;
+    height:50px;
 }
+
 #nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    position: relative;
-    min-width: 150px;
+   background-color:#a052ab;
+
 }
+
 #nav ul li {
     display: inline-block;
 }
