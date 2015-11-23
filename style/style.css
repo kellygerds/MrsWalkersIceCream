@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: helvetica, arial, sans-serif;
+	color:;
 }
 
 .awning {
@@ -38,7 +39,7 @@ body {
 
 .logo {
 	float:left;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-left: 40px;
 }
 
@@ -132,13 +133,34 @@ background-color:#a052ab;
 	padding:20px;
 	height:200px;
 	text-align: center;
+	color: #fff;
 }
 
 .text{
-	background-color:purple;
+	background-color:#a052ab;
 	padding:20px;
 	border-top:10px white solid;
-	font color: white;
+	color: #fff;
+	font-family: Helvetica;
+}
+
+#columns {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 2;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 2;
+	column-gap: 15px;
+	column-fill: auto;
+}
+
+#columns p {
+	display: inline-block;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
 }
 
 .box{
@@ -148,10 +170,77 @@ background-color:#a052ab;
 	width:300px;
 	float:left;
 }
+
+
 footer{
 	position: fixed;
 	width:100%;
 	bottom:0;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: right;
+  width: 100%;
+  border: 3px solid #a052ab;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #purple;
+}
+
+.searchTerm:focus{
+  color: #purple;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #e6b2ed;
+  background: #e6b2ed;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search{
+         padding:8px 15px;
+         background:rgba(50, 50, 50, 0.2);
+         border:0px solid #dbdbdb;
+}
+.button{
+         position:relative;
+         padding:6px 15px;
+         left:-8px;
+         border:2px solid #207cca;
+         background-color:#207cca;
+         color:#fafafa;
+}
+.button:hover{
+         background-color:#fafafa;
+         color:purple;
 }
 
 }
