@@ -1,16 +1,17 @@
 body {
 	margin: 0;
 	font-family: helvetica, arial, sans-serif;
-	color:;
+	background-image: url(../assets/images/sprinkles.png);
 }
 
 .awning {
 	width:100%;
-	height:170px;
+	height:190px;
 	background:url(../assets/images/awning.png) repeat-x ;
 	position:fixed;
 	top:0;
 	left:0;
+	z-index:998;
 }
 
 .wrapper{
@@ -24,22 +25,34 @@ body {
 	width:100%;
 	height:75px;
 	background:url(../assets/images/footer.jpg) repeat-x ;
+	background-size: cover;
 	position:fixed;
 	bottom:0;
 	left:0;
-
 }
 
-.header {
+/*HEADERS*/
+
+.header-home {
 	background:url(../assets/images/homeicecream.jpg) repeat;
 	border-bottom: 10px solid #fff;
 	margin-top:135px;
 	height:380px;
 }
 
+.header-forked {
+	background:url(../assets/images/homeicecream.jpg) repeat;
+	border-bottom: 10px solid #fff;
+	margin-top:135px;
+	height:380px;
+}
+
+
+/*end headers*/
+
 .logo {
 	float:left;
-	padding-top: 40px;
+	padding-top: 60px;
 	padding-left: 40px;
 }
 
@@ -51,12 +64,6 @@ body {
 	justify-content: space-between;
 }
 
-.nav {
-	color: #e6b2ed;
-	margin-top: 110px;
-	background-color:red;
-	background-color:#37373c;
-}
 .main-nav {
 background-color:#a052ab;
 }
@@ -70,23 +77,25 @@ background-color:#a052ab;
 }
 
 #nav {
-    background-color: #222;
+	position:relative;
+
 }
 
 #nav_wrapper {
-    width: 100%;
+	background-color:#a052ab;
     margin: 0 auto;
     text-align: left;
     float:right;
     width:406px;
-    height:50px;
+    height:48px;
+    margin-top:332px;
 }
+
 
 #nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-   background-color:#a052ab;
 
 }
 
@@ -128,12 +137,17 @@ background-color:#a052ab;
 	margin: 0 auto;
 	width: 800px;
 }
-.columns{
+.columns{ /**these are the boxes in the light pink box**/
 	background-color: #eac4f0;
-	padding:20px;
-	height:200px;
+	padding:55px;
+	min-height:200px;
 	text-align: center;
 	color: #fff;
+	vertical-align: center;
+}
+
+.clear {
+	clear:both;
 }
 
 .text{
@@ -168,6 +182,7 @@ background-color:#a052ab;
 	padding:20px;
 	margin: 10px;
 	width:300px;
+	height:150px;
 	float:left;
 }
 
@@ -178,14 +193,21 @@ footer{
 	bottom:0;
 }
 
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+
+.wrap{
+  width: 20%;
+  position:fixed;
+  top: 20px;
+  right: 20px;
+  transform: translate(-50%, -50%);
+  z-index:999;
 }
 
 .search {
   width: 100%;
-  position: relative
+
+  top:10px;
+  right:10px;
 }
 
 .searchTerm {
@@ -208,8 +230,8 @@ body{
   right: -50px;
   width: 40px;
   height: 36px;
-  border: 1px solid #e6b2ed;
-  background: #e6b2ed;
+  border: 1px solid #fff;
+  background: #a052ab;
   text-align: center;
   color: #fff;
   border-radius: 5px;
@@ -217,13 +239,7 @@ body{
   font-size: 20px;
 }
 
-.wrap{
-  width: 20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .search{
          padding:8px 15px;
