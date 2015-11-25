@@ -14,6 +14,13 @@ body {
 	z-index:998;
 }
 
+.space-between{
+	justify-content:space-between;
+}
+.flex{
+	display: flex;
+}
+
 .wrapper{
 	max-width:1200px;
 	margin:0 auto;
@@ -168,6 +175,7 @@ background-color:#a052ab;
 	column-count: 2;
 	column-gap: 15px;
 	column-fill: auto;
+	text-align: center;
 }
 
 #columns p {
@@ -182,10 +190,9 @@ background-color:#a052ab;
 	padding:20px;
 	margin: 10px;
 	width:300px;
-	height:150px;
+	min-height:150px;
 	float:left;
 }
-
 
 footer{
 	position: fixed;
@@ -258,5 +265,10 @@ footer{
          background-color:#fafafa;
          color:purple;
 }
-
+.button{
+	 padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
 }
