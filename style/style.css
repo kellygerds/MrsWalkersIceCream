@@ -190,7 +190,7 @@ background-color:#a052ab;
 	padding:20px;
 	margin: 10px;
 	width:300px;
-	height:150px;
+	min-height:150px;
 	float:left;
 }
 
@@ -265,5 +265,10 @@ footer{
          background-color:#fafafa;
          color:purple;
 }
-
+.button{
+	 padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
 }
