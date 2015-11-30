@@ -24,7 +24,7 @@ body {
 .wrapper{
 	max-width:1200px;
 	margin:0 auto;
-	background-color:pink;
+	background-color:none;
 	margin-bottom:100px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .header-forked {
-	background:url(../assets/images/homeicecream.jpg) repeat;
+	background:url(../assets/images/FRBanner.png) repeat;
 	border-bottom: 10px solid #fff;
 	margin-top:135px;
 	height:380px;
@@ -148,6 +148,15 @@ background-color:#a052ab;
 	background-color: #eac4f0;
 	padding:55px;
 	min-height:200px;
+	text-align: center;
+	color: #fff;
+	vertical-align: center;
+}
+
+.location-columns{ /**these are the boxes in the light pink box**/
+	background-color: #eac4f0;
+	padding:55px;
+	min-height:340px;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
@@ -266,9 +275,60 @@ footer{
          color:purple;
 }
 .button{
-	 padding:5px;
-  background-color: #dcdcdc;
-  border: 1px solid #666;
-  color:#000;
-  text-decoration:none;
+	 	padding:5px;
+  		background-color: #dcdcdc;
+  		border: 1px solid #666;
+  		color:#000;
+  		text-decoration:none;
+}
+.form{
+	width: 20px;
+	font-style: relative;
+}
+
+.town{
+	position: static;
+	background-color: #37383c;
+	min-height:40px;
+	max-width: 260px;
+	text-align: center;
+	color: #fff;
+	vertical-align: center;
+}
+body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: center;
+	padding: 10px 20px;
+  	margin: 30px 20px 20px 20px;
+  	vertical-align: center;
+	border-radius: 15px;
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }
