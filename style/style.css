@@ -11,7 +11,7 @@ body {
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:998;
+	z-index:2015;
 }
 
 .space-between{
@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper{
-	max-width:1200px;
+	max-width:90%;
 	margin:0 auto;
 	background-color:none;
 	margin-bottom:100px;
@@ -36,6 +36,7 @@ body {
 	position:fixed;
 	bottom:0;
 	left:0;
+	z-index: 3000;
 }
 
 /*HEADERS*/
@@ -48,10 +49,16 @@ body {
 }
 
 .header-forked {
-	background:url(../assets/images/FRBanner.png) repeat;
+	background:url(../assets/images/frnavpic.png) repeat;
 	border-bottom: 10px solid #fff;
 	margin-top:135px;
 	height:380px;
+}
+.header-cakegallery {
+  background:url(../assets/images/gallerybanner.png) repeat;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
 }
 
 
@@ -76,11 +83,12 @@ background-color:#a052ab;
 }
 
 .nav a{
-	color:inherit;
+	color:#000;
 	text-decoration: none;
 }
 .nav a:hover {
-	color: #a052ab;
+	color: #000;
+	background-color: #a052ab;
 }
 
 #nav {
@@ -133,7 +141,7 @@ background-color:#a052ab;
     display: block;
 }
 #nav ul ul li a:hover {
-    color: #37373c;
+    color: #000;
 }
 #nav{
 	display: flex;
@@ -151,6 +159,7 @@ background-color:#a052ab;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
+	z-index: -2;
 }
 
 .location-columns{ /**these are the boxes in the light pink box**/
@@ -161,6 +170,7 @@ background-color:#a052ab;
 	color: #fff;
 	vertical-align: center;
 }
+
 .specials{
 
 }
@@ -205,7 +215,10 @@ background-color:#a052ab;
 	width:300px;
 	min-height:150px;
 	float:left;
+	overflow: hidden;
+	margin-bottom: 40px;
 }
+
 
 footer{
 	position: fixed;
@@ -224,8 +237,8 @@ footer{
 }
 
 .search {
-  width: 100%;
-
+  width: 300px;
+  z-index: 3000;
   top:10px;
   right:10px;
 }
@@ -239,10 +252,12 @@ footer{
   border-radius: 5px;
   outline: none;
   color: #purple;
+  z-index: 3000;
 }
 
 .searchTerm:focus{
   color: #purple;
+  z-index: 3000;
 }
 
 .searchButton {
@@ -257,6 +272,7 @@ footer{
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  z-index: 3000;
 }
 
 
@@ -265,6 +281,7 @@ footer{
          padding:8px 15px;
          background:rgba(50, 50, 50, 0.2);
          border:0px solid #dbdbdb;
+         z-index: 3000;
 }
 .button{
          position:relative;
@@ -273,10 +290,13 @@ footer{
          border:2px solid #207cca;
          background-color:#207cca;
          color:#fafafa;
+         z-index: 3000;
+        
 }
 .button:hover{
          background-color:#fafafa;
          color:purple;
+         z-index: 3000;
 }
 .button{
 	 	padding:5px;
@@ -284,6 +304,8 @@ footer{
   		border: 1px solid #666;
   		color:#000;
   		text-decoration:none;
+  		z-index: 3000;
+  		
 }
 .form{
 	width: 20px;
@@ -328,6 +350,7 @@ body
 	background-color: #3498DB;
 	border-bottom: 5px solid #2980B9;
 	text-shadow: 0px -2px #2980B9;
+	margin-top: 15px !important;
 }
 
 .action-button:active
@@ -338,7 +361,7 @@ body
 }
 
 .flavor-logo{
-	vertical-align: static
+	text-align: center;
 }
 
 
@@ -352,6 +375,7 @@ body
   border:1px solid #ccc;
   color:#37373d;
   position:relative;
+  z-index:999;
 }
 
 .calender:before,
@@ -408,121 +432,42 @@ body
   color:#000;
   box-shadow:inset 0 0 20px rgba( 0,0,0, .4);
   text-shadow:1px 1px 2px rgba(0,0,0,.4);
+ }
 
-
-
-
-/* White Border around Photos*/
-li {
-  background-color: #fff;
-  padding: 10px;
+ .contactus{
+ 	
+ }
+#container{
+  width:450px;
+  position:relative;
+  margin:0 auto;
+  top:50px;
 }
 
-img {
-  width: 250px;
-  height: 250px;
+#overlay{
+  cursor: pointer;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background:#000;
+  opacity:.7;
+  z-index:2000;
+  display:none;
 }
 
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-header {
-  background: #454545;
-  height: 100px;
-  text-align: center;
-}
-header h1 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-top: 1.6em;
-  margin-bottom: .2em;
-}
-header p {
-  font-size: 13px;
-  font-size: 1rem;
-  color: #707070;
-}
-@media only screen and (min-width: 1024px) {
-  header {
-    height: 200px;
-  }
-  header h1 {
-    font-size: 30px;
-    font-size: 1.875rem;
-    padding-top: 2.6em;
-  }
+.photo {
+  width:100px;
+  float:left;
+  background:#fff;
+  border:1px solid #999;
+  margin:20px;
 }
 
 
-
-/* My Tweaks - Center the boxes on the page */
-
-div {
-width:900px;
-height:400px;
-padding-top: 40px;
-margin: 0 auto;
+.gallery img {
+  width: 100%;
 }
 
-
-
-/* Source: http://matthamm.com/box-shadow-curl.html */
-
-ul.box, ul.box2, ul.box3, ul.box4 {
-position: relative;
-z-index: 1; /* prevent shadows falling behind containers with backgrounds */
-overflow: hidden;
-list-style: none;
-margin: 0;
-padding: 0; }
-
-
-ul.box li, ul.box2 li, ul.box3 li, ul.box4 li {
-position: relative;
-float: left;
-margin: 0 30px 30px 0;
--webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
--moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }
-
-
-ul.box li:before,
-ul.box li:after,
-ul.box2 li:after,
-ul.box2 li:before,
-ul.box4 li:after {
-content: '';
-z-index: -1;
-position: absolute;
-left: 10px;
-bottom: 10px;
-width: 70%;
-max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
-max-height: 100px;
-height: 55%;
--webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
--webkit-transform: skew(-15deg) rotate(-6deg);
--moz-transform: skew(-15deg) rotate(-6deg);
--ms-transform: skew(-15deg) rotate(-6deg);
--o-transform: skew(-15deg) rotate(-6deg);
-transform: skew(-15deg) rotate(-6deg); }
-
-
-
-ul.box li:after,
-ul.box4 li:after {
-left: auto;
-right: 10px;
--webkit-transform: skew(15deg) rotate(6deg);
--moz-transform: skew(15deg) rotate(6deg);
--ms-transform: skew(15deg) rotate(6deg);
--o-transform: skew(15deg) rotate(6deg);
-transform: skew(15deg) rotate(6deg); }
+/*RESPONSIVE*/
