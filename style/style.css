@@ -63,6 +63,7 @@ body {
 
 
 /*end headers*/
+}
 
 .logo {
 	float:left;
@@ -73,6 +74,8 @@ body {
 .flex {
 	display:flex; 
 }
+
+/*NAV BAR*/ 
 
 .space-between {
 	justify-content: space-between;
@@ -171,10 +174,6 @@ background-color:#a052ab;
 	vertical-align: center;
 }
 
-.specials{
-
-}
-
 
 .clear {
 	clear:both;
@@ -209,7 +208,7 @@ background-color:#a052ab;
 
 .box{
 	background-color:#a052ab;
-	padding:20px;
+	padding:40px;
 	margin: 10px;
 	width:300px;
 	min-height:150px;
@@ -234,6 +233,7 @@ footer{
   transform: translate(-50%, -50%);
   z-index:999;
 }
+/*SEARCH BAR*/ 
 
 .search {
   width: 300px;
@@ -274,8 +274,6 @@ footer{
   z-index: 3000;
 }
 
-
-
 .search{
          padding:8px 15px;
          background:rgba(50, 50, 50, 0.2);
@@ -307,8 +305,6 @@ footer{
   		
 }
 
-}
-
 .town{
 	position: static;
 	background-color: #37383c;
@@ -318,10 +314,14 @@ footer{
 	color: #fff;
 	vertical-align: center;
 }
+
+/*This efects the placement of the logo on the location pages?*/
+
 body
 {
 	padding: 50px;
 }
+/*Ordering a cake from the locaiton pages*/
 
 .animate
 {
