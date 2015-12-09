@@ -1003,13 +1003,16 @@ html.dark {
 body{padding: 30px; background: #eac4f0;}
 header{margin-bottom: 5rem;}
 
+
 .columns-cake{
-  background-color: #eac4f0;
-  padding:55px;
-  min-height:340px;
-  text-align: left;
-  color: #fff;
-  vertical-align: center;
+  background-color:#a052ab;
+  padding:50px;
+  margin:28px;
+  width:300px;
+  min-height:150px;
+  float:left;
+  overflow: hidden;
+  margin-bottom: 40px;
  
 
 }
