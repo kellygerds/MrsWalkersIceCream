@@ -172,11 +172,12 @@ background-color:#a052ab;
 .columns{ /**these are the boxes in the light pink box**/
 	background-color: #eac4f0;
 	padding:55px;
-	min-height:200px;
+	min-height:300px;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
 	z-index: -2;
+  h1: font-size: 50px;
 }
 
 .location-columns{ /**these are the boxes in the light pink box**/
@@ -186,7 +187,15 @@ background-color:#a052ab;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
+}
 
+.columns-cal{
+  background-color: #eac4f0;
+  padding:55px;
+  min-height:900px;
+  text-align: center;
+  color: #fff;
+  vertical-align: center;
 }
 
 
@@ -996,6 +1005,17 @@ html.dark {
     padding:0.563em 6em;
   }
 }
+
+/*Monthly Specials Gallery*/
+
+.specials{
+  background-color: #eac4f0;
+  min-height:500px;
+  text-align: center;
+  color: #fff;
+
+}
+
 /*CAKE ORDER FORM*/
 
 */
@@ -1005,18 +1025,18 @@ header{margin-bottom: 5rem;}
 
 
 .columns-cake{
+  min-height:150px;
+  float:left;
+  overflow: hidden;
   background-color:#a052ab;
   padding:50px;
   margin:28px;
   width:300px;
-  min-height:150px;
-  float:left;
-  overflow: hidden;
   margin-bottom: 40px;
  
 
-}
-/*/////////////// FONT STYLES ////////////////////*/
+}/*/////////////// FONT STYLES ////////////////////*/
+
 
 html{font-size: 62.5%;}
 body, textarea{font-family:'Helvetica', sans-serif;}
@@ -1093,6 +1113,7 @@ input[type="submit"]{
   margin: 10px 0 0 0;
   }
 }
+
  
 
 /*RESPONSIVE*/
