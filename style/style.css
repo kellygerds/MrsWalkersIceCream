@@ -186,7 +186,6 @@ background-color:#a052ab;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
-
 }
 
 
@@ -197,7 +196,6 @@ background-color:#a052ab;
 .text{
 	background-color:#a052ab;
 	padding:20px;
-  text-align: left;
 	color: #fff;
 	font-family: Helvetica;
 }
@@ -224,8 +222,8 @@ background-color:#a052ab;
 
 .box{
 	background-color:#a052ab;
-	padding:50px;
-	margin:28px;
+	padding:40px;
+	margin: 10px;
 	width:300px;
 	min-height:150px;
 	float:left;
@@ -347,9 +345,10 @@ body
 
 .action-button
 {
-	position:relative;
+	position: center;
 	padding: 10px 20px;
   	margin: 30px 20px 20px 20px;
+  	vertical-align: center;
 	border-radius: 15px;
 	font-family: Helvetica, Arial;
 	font-size: 16px;
@@ -484,6 +483,7 @@ body
 
 
 /*FORM CONTACT PAGE*/
+}
 
 #feedback-page{
   text-align:center;
@@ -497,7 +497,6 @@ body
 
 #form-div {
   background-color:rgba(72,72,72,0.4);
-  background: red;
   padding-left:35px;
   padding-right:35px;
   padding-top:10px;
@@ -710,7 +709,6 @@ input[type=submit] {
   width:100%;
   text-align:left;
 }
-
 
 /* DOWN HERE: Only theming */ 
 
@@ -1003,11 +1001,11 @@ html.dark {
 body{padding: 30px; background: #eac4f0;}
 header{margin-bottom: 5rem;}
 
-.columns-cake{
+.columns-cakebackground{
   background-color: #eac4f0;
   padding:55px;
   min-height:340px;
-  text-align: left;
+  text-align: center;
   color: #fff;
   vertical-align: center;
  
