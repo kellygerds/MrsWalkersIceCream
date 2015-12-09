@@ -506,7 +506,6 @@ body
 
 #form-div {
   background-color:rgba(72,72,72,0.4);
-  background: red;
   padding-left:35px;
   padding-right:35px;
   padding-top:10px;
@@ -1113,6 +1112,8 @@ input[type="submit"]{
   margin: 10px 0 0 0;
   }
 }
+/*Button for Flavors on Specialty Page*/
+
 
  
 
