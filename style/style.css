@@ -65,11 +65,11 @@ body {
   height:380px;
 }
 .header-cakegallery {
-  background:url(../assets/images/frnavpic.png) no-repeat center center fixed;
+  background:url(../assets/images/frnavpic.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: absolute;
   border-bottom: 10px solid #fff;
   margin-top:135px;
   height:380px;
@@ -225,6 +225,7 @@ background-color:#a052ab;
   background-color: #eac4f0;
   padding:55px;
   min-height:750px;
+  min-width:500px;
   text-align: center;
   color: #000;
   vertical-align: center;
@@ -260,7 +261,7 @@ background-color:#a052ab;
 
 #columns {
 	-webkit-column-count: 2;
-	-webkit-column-gap: 10px;
+	-webkit-column-gap: 1px;
 	-webkit-column-fill: auto;
 	-moz-column-count: 2;
 	-moz-column-gap: 10px;
@@ -432,7 +433,10 @@ body
 	text-align: center;
 }
 
-
+.flavor-button{
+  padding-right: 950px;
+  display: flex;
+}
 
 .calender{
   margin:20px auto;
