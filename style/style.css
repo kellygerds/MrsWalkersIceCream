@@ -41,6 +41,10 @@ body {
 	z-index: 3000;
 }
 
+.container-contact{
+  float:right;
+}
+
 /*HEADERS*/
 
 .header-home {
@@ -174,7 +178,7 @@ body
   -webkit-transition: all 0.1s;
 }
 
-.action-button
+.action-button-green
 {
   position: relative;
   padding: 10px 40px;
@@ -331,7 +335,7 @@ background-color:#a052ab;
 .location-columns{ /**these are the boxes in the light pink box**/
 	background-color: #eac4f0;
 	padding:55px;
-	min-height:340px;
+	min-height:540px;
 	text-align: center;
 	color: #fff;
 	vertical-align: center;
@@ -437,7 +441,19 @@ background-color:#a052ab;
   margin:28px;
   width:90%;
   min-height:150px;
-  
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+ .box-contact{
+ background-color:#a052ab;
+  padding:50px;
+  margin:28px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width:300px;
+  min-height:300px;
+  float:left;
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -708,13 +724,16 @@ body
   padding-top:0px;
 }
 
-#form-divcontact {
+
+}
+
+#form-contact{
   background-color:rgba(72,72,72,0.4);
   padding-left:35px;
   padding-right:35px;
   padding-top:10px;
   padding-bottom:100px;
-  width: 350px;
+  width: 100%;
   float: left;
   left: 50%;
   position: absolute;
@@ -762,6 +781,8 @@ body
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+  border-style: solid;
+  border-color: #a052ab;
 }
 
 #name:focus{
@@ -777,6 +798,8 @@ body
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+   border-style: solid;
+  border-color: #a052ab;
 }
 
 #email:focus{
@@ -807,7 +830,6 @@ input:focus, textarea:focus {
 
 #button-blue{
   font-family: Helvetica, sans-serif;
-  float:left;
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
@@ -833,7 +855,7 @@ input:focus, textarea:focus {
   
 .ease {
   width: 0px;
-  height: 74px;
+  height: 5px;
   background-color: #fbfbfb;
   -webkit-transition: .3s ease;
   -moz-transition: .3s ease;
