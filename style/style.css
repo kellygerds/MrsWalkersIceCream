@@ -44,7 +44,7 @@ body {
 /*HEADERS*/
 
 .header-home {
-	background:url(../assets/images/homeicecream.jpg) no-repeat center;
+	background:url(../assets/images/homeicecream.png) no-repeat center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,8 +54,8 @@ body {
   height:380px;
 }
 
-.header-forked {
-	background:url(../assets/images/frnavpic.png) no-repeat center;
+.header-locations {
+	background:url(../assets/images/locpic.png) no-repeat center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,8 +79,91 @@ body {
 /*end headers*/
 }
 
-.logo-container {
-  padding-top: 200px;
+/*CAKE TESTING AGAIN*/
+
+html, body { width: 100%; height: 100%; background: #ECF3F3 }
+
+form
+{
+  display: block;
+  margin: 100px auto;
+  width: 950px;
+  overflow: hidden;
+  background: #FFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  font-size: 0;
+}
+
+form > div
+{
+  display: inline-block;
+  width: 100%;
+}
+
+form > div > label
+{
+  display: block;
+  padding: 20px 20px 10px;
+  vertical-align: top;
+  font-family: Source Sans Pro, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #939393;
+  cursor: pointer;
+}
+
+form > div.col-2, form > div.col-3, form > div.col-4 { box-shadow: 1px 1px #E4E4E4 }
+
+form > div.col-2 { width: 50% }
+form > div.col-3 { width: 33.3333333333% }
+form > div.col-4 { width: 25% }
+
+form > div > label > input
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 27px;
+  line-height: 27px;
+  margin: 5px -5px 0;
+  padding: 7px 5px 3px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 200;
+  opacity: .66;
+  transition: opacity .3s, box-shadow .3s;
+}
+
+form > div > label > select
+{
+  display: block;
+  width: 100%;
+  margin: 16px 0 6px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 200;
+  opacity: .33;
+}
+
+form > div > label > input:focus, form > div > label > select:focus
+{
+  opacity: 1;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, .15);
+}
+
+/*END CAKE TESTING*/
+
+
+.h4{
+  text-align: center;
 }
 
 
@@ -289,6 +372,16 @@ background-color:#a052ab;
 	margin-bottom: 40px;
 }
 
+.box-ordering{
+  background-color:#a052ab;
+  padding:40px;
+  margin:28px;
+  width:90%;
+  min-height:150px;
+  
+  overflow: hidden;
+  margin-bottom: 40px;
+}
 
 footer{
 	position: fixed;
@@ -544,7 +637,7 @@ body
 }
 
 
-/*FORM CONTACT PAGE*/
+/*FORM CONTACT PAGE IMPORTANT TO FIX*/
 
 #feedback-page{
   text-align:center;
@@ -1070,79 +1163,7 @@ html.dark {
 
 /*CAKE ORDER FORM*/
 
-*/
-/*/////////////// GLOBAL STYLES ////////////////////*/
-body{padding: 30px; background: #eac4f0;}
-header{margin-bottom: 5rem;}
 
-
-.columns-cake{
-  min-height:150px;
-  float:left;
-  overflow: hidden;
-  background-color:#a052ab;
-  padding:50px;
-  margin:28px;
-  width:300px;
-  margin-bottom: 40px;
- 
-
-}/*/////////////// FONT STYLES ////////////////////*/
-
-
-html{font-size: 62.5%;}
-body, textarea{font-family:'Helvetica', sans-serif;}
-h1{font-size: 3rem;}
-h2{font-size: 1.6rem;}
-form{font-size: 1.4rem; color: #222;}
-
-/*/////////////// FORM STYLES ////////////////////*/
-
-#cakeform{
-margin-top: -100px;
-margin-left: -300px;
-
-
-
-
-form .field-group{
-  display: flex; 
-  margin: 0 0 12px 0;
-}
-form .field-group .label{
-  flex: 1; 
-  text-align: right; 
-  margin: 0 8px 0 0;
-  padding: 2px 0;
-}
-form .field-group .field{
-  flex: 3;
-}
-form .field-group:last-child{
-  display: flex;
-  justify-content: flex-end;
-}
-form .field-group:last-child .field{
-  max-width: 75%;
-}
-input, select, textarea{
-  padding: .6rem 1rem; 
-  font-size: 1.6rem; 
-  border: solid 1px #eee;
-  background: #fff; 
-  box-sizing: border-box;
-}
-textarea {
-  width: 10%;  
-}
-input, select{
-  width: 100%;
-}
-input[type="radio"],
-input[type="checkbox"],
-input[type="submit"]{
-  width: auto;
-}
 
 /*Confirmation Button*/
 
@@ -1271,6 +1292,8 @@ a#openPopUp {
 }
 
 
+
+
 /*/////////////// RWD STYLES ////////////////////*/
 @media (max-width: 720px) {
   form .field-group .label{
@@ -1301,8 +1324,6 @@ a#openPopUp {
 }
 
 
-/*CAKE FORM TEST*/
-
 
 
 
@@ -1328,6 +1349,7 @@ a#openPopUp {
     left:0;
     right:100px;
     min-width:100%;
+
 }
 
 #nav ul li {

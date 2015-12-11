@@ -7,11 +7,11 @@
 <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
-<body background="assets/images/sprinkles.png">
+<body>
 	
 	<div class="awning"></div>
 	<div class="wrapper">
-		<div id="nav" class="header-forked">
+		<div id="nav" class="header-home">
 			<div class="logo container">
 				<img src="assets/images/logo.png" align="left" height="209px" width="180px"></img>
 			</div>
@@ -38,7 +38,8 @@
 						<ul>
 							<li><a href="#">Monthly Specials</a>
 							<li><a href="#">Specialties</a>
-              <li><a href="#">Flavors</a>   
+							<li><a href="#">Flavors</a>		
+
 
 						</ul>	
 					</li>
@@ -46,52 +47,106 @@
 					<li class="main-nav"><a href="#">Contact Us</a>
 						<ul>
 							<li><a href="#">Social Media</a>
-              <li><a href="#">Email</a> 
+							<li><a href="#">Email</a>	
 
 							</ul>
-						
+						</li>	
 				</ul>
 			</div>
-		</div>        
+		</div>
+
+
+	
+			
+			<div class="box-ordering">
+			
+<form>
+  <div class="col-2">
+    <label>
+      Name
+      <input placeholder="What is your provider's company name?" tabindex="1" />
+    </label>
   </div>
-
-          <div id="order-form">
-          <h1>Cake Size</h1>
-          <form class
-          </div>
-
-
-
-  <div class="confirmation-page">
-    
-    <h1>CSS Model</h1>
-    <a href="#popUp" id="openPopUp">Submit Order!</a>
-  
-<!-- POP UP -->
-    <aside id="popUp" class="popup">
-    <div class="popUpContainer">
-       <header>
-        <a href="#!" class="closePopUp">X</a>
-        <h2>Order Confirmed</h2>
-       </header>
-
-      <article>
-        
-      </article>
-   </div>
-
-   <a href="#!" class="closePopUpOutSide"></a>    
-    </aside>
-
+  <div class="col-2">
+    <label>
+      Contact Name
+      <input placeholder="Who represents the provider's company?" tabindex="2" />
+    </label>
   </div>
+  <div class="col-3">
+    <label>
+      Phone
+      <input placeholder="What is the provider's phone number?" tabindex="3" />
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Email
+      <input placeholder="What is the provider's email?" tabindex="4" />
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Shipping Method
+      <select tabindex="5">
+        <option>Select shipment method</option>
+        <option>Standard 3 - 5 Business Days</option>
+        <option>Expedited Next-Day Delivery</option>
+      </select>
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Shipping Method
+      <select tabindex="5">
+        <option>Select shipment method</option>
+        <option>Standard 3 - 5 Business Days</option>
+        <option>Expedited Next-Day Delivery</option>
+      </select>
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Shipping Method
+      <select tabindex="5">
+        <option>Select shipment method</option>
+        <option>Standard 3 - 5 Business Days</option>
+        <option>Expedited Next-Day Delivery</option>
+      </select>
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Shipping Method
+      <select tabindex="5">
+        <option>Select shipment method</option>
+        <option>Standard 3 - 5 Business Days</option>
+        <option>Expedited Next-Day Delivery</option>
+      </select>
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Shipping Method
+      <select tabindex="5">
+        <option>Select shipment method</option>
+        <option>Standard 3 - 5 Business Days</option>
+        <option>Expedited Next-Day Delivery</option>
+      </select>
+    </label>
+  </div>
+</form>			
+
+			</div>
+		
+
 
 <div class="social media">	
-<img src="assets/images/socialmedia.png" align="right"></img>
-
-</div>
+<img src="assets/images/socialmedia.png" align="right">
 
 	<div class="footer"></div>
 
+</div>
 
 <div class="wrap">
    
@@ -99,19 +154,10 @@
       <input type="text" class="searchTerm" placeholder="What are you looking for?">
       <button type="submit" class="searchButton" align:"right">
         <i class="fa fa-search"></i>
-      </button>
+     </button>
 
    </div>
 </div>
-<div id="confirm" class="succsess-modal">
-  <h3> Succsess!! </h3>
-</div>
-<script>
-var confirm = document.getElementById('confirm');
-var submitClicked = function() {
-  confirm.classList.add('shown')
-}
-</script>
 </body>
 
 </html>
