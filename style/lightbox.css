@@ -176,6 +176,7 @@ body:after {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
+  color:#000;
 }
 
 .lb-data .lb-number {
