@@ -44,22 +44,22 @@ body {
 /*HEADERS*/
 
 .header-home {
-	background:url(../assets/images/homeicecream.jpg) no-repeat center center fixed;
+	background:url(../assets/images/homeicecream.jpg) no-repeat center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: absolute;
   border-bottom: 10px solid #fff;
   margin-top:135px;
   height:380px;
 }
 
 .header-forked {
-	background:url(../assets/images/frnavpic.png) no-repeat center center fixed;
+	background:url(../assets/images/frnavpic.png) no-repeat center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: absolute;
   border-bottom: 10px solid #fff;
   margin-top:135px;
   height:380px;
@@ -79,12 +79,11 @@ body {
 /*end headers*/
 }
 
-.logo {
-
-	padding-top: 60px;
-	padding-left: 40px;
-
+.logo-container {
+  padding-top: 200px;
 }
+
+
 
 .cake-sizes{
   width:200px;
@@ -1300,6 +1299,15 @@ a#openPopUp {
   margin: 10px 0 0 0;
   }
 }
+
+
+/*CAKE FORM TEST*/
+
+
+
+
+
+
 /*Button for Flavors on Specialty Page*/
 
 
@@ -1323,7 +1331,7 @@ a#openPopUp {
 }
 
 #nav ul li {
-    display: block;
+    display: inline-block;
 }
 
 #nav ul ul {
