@@ -69,7 +69,7 @@ body {
   height:380px;
 }
 .header-cakegallery {
-  background:url(../assets/images/frnavpic.png) no-repeat center;
+  background:url(../assets/images/gallerybanner.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,6 +78,90 @@ body {
   margin-top:135px;
   height:380px;
 }
+
+.header-location {
+  background:url(../assets/images/location.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-order {
+  background:url(../assets/images/ordering.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-flavor {
+  background:url(../assets/images/ordering.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-contact {
+  background:url(../assets/images/contact.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-month {
+  background:url(../assets/images/month1.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-social {
+  background:url(../assets/images/social.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-virtual {
+  background:url(../assets/images/social.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+
+
+
+
+
+
 
 
 /*end headers*/
@@ -341,15 +425,6 @@ background-color:#a052ab;
 	vertical-align: center;
 }
 
-.columns-virtual{
-  background-color: #eac4f0;
-  padding:55px;
-  height:500px;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 900px;
-}
-
 /* modal test */
 
 .succsess-modal {
@@ -386,6 +461,20 @@ background-color:#a052ab;
   z-index: -2;
   font-size: 14px;
   h2 font-size: 5px;
+}
+
+.columns-social{
+  background-color: #eac4f0;
+  padding:55px;
+  min-height:300px;
+  min-width:500px;
+  text-align: center;
+  color: #000;
+  vertical-align: center;
+  z-index: -2;
+  font-size: 14px;
+  h2 font-size: 5px;
+  }
 
 }
 .columns-cake{
@@ -455,7 +544,7 @@ background-color:#a052ab;
 }
 
  .box-contact{
- background-color:#a052ab;
+ background-color:#eac4f0;
   padding:50px;
   margin:28px;
   margin-top: 100px;
@@ -469,14 +558,18 @@ background-color:#a052ab;
 
 .box-virtual{
   background-color:#a052ab;
-  padding:50px;
+  padding:10px;
   margin-top: 100px;
- 
-  width:600px;
-  height:300px;
-  
+  margin-left: 60px;
+  position: absolute;
+  width:85%;
+  height:100%;
   overflow: hidden;
   margin-bottom: 40px;
+}
+
+.virtual{
+  position: absolute;
 }
 
 
@@ -570,6 +663,9 @@ background-color:#a052ab;
 	vertical-align: center;
 }
 
+
+
+
 /*This efects the placement of the logo on the location pages?*/
 
 body
@@ -602,6 +698,14 @@ body
 	border-bottom: 5px solid #693670;
 	text-shadow: 0px -2px #a052ab;
 	margin-top: 15px !important;
+}
+.blue-contact
+{
+  background-color: #a052ab;
+  border-bottom: 5px solid #693670;
+  text-shadow: 0px -2px #a052ab;
+  margin-top: 15px !important;
+  margin-left: 95px;
 }
 
 .action-button:active
@@ -1460,3 +1564,4 @@ a#openPopUp {
     margin-left: 0px;
 }
 
+.lo
