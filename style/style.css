@@ -68,7 +68,7 @@ body {
   margin-top:135px;
   height:380px;
 }
-.header-cakegallery {
+.header-gallery {
   background:url(../assets/images/gallerybanner.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -156,8 +156,8 @@ body {
   height:380px;
 }
 
-.header-specialties {
-  background:url(../assets/images/special.png) no-repeat center;
+.header-special {
+  background:url(../assets/images/specialties.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
