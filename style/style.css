@@ -68,7 +68,7 @@ body {
   margin-top:135px;
   height:380px;
 }
-.header-cakegallery {
+.header-gallery {
   background:url(../assets/images/gallerybanner.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,7 +146,18 @@ body {
 }
 
 .header-virtual {
-  background:url(../assets/images/social.png) no-repeat center;
+  background:url(../assets/images/virtual1.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:135px;
+  height:380px;
+}
+
+.header-special {
+  background:url(../assets/images/specialties.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -251,63 +262,7 @@ form > div > label > input:focus, form > div > label > select:focus
 
 /*Virtual Create Buttons*/
 
-body
-{
-  padding: 50px;
-}
 
-.animate
-{
-  transition: all 0.1s;
-  -webkit-transition: all 0.1s;
-}
-
-.action-button-green
-{
-  position: relative;
-  padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
-  border-radius: 10px;
-  font-family: 'Pacifico', cursive;
-  font-size: 25px;
-  color: #FFF;
-  text-decoration: none;  
-}
-
-.blue
-{
-  background-color: #3498DB;
-  border-bottom: 5px solid #2980B9;
-  text-shadow: 0px -2px #2980B9;
-}
-
-.red
-{
-  background-color: #E74C3C;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
-}
-
-.green
-{
-  background-color: #82BF56;
-  border-bottom: 5px solid #669644;
-  text-shadow: 0px -2px #669644;
-}
-
-.yellow
-{
-  background-color: #F2CF66;
-  border-bottom: 5px solid #D1B358;
-  text-shadow: 0px -2px #D1B358;
-}
-
-.action-button:active
-{
-  transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-  border-bottom: 1px solid;
 }
 .h4{
   text-align: center;
@@ -560,7 +515,7 @@ background-color:#a052ab;
   background-color:#a052ab;
   padding:10px;
   margin-top: 100px;
-  margin-left: 60px;
+  margin-left: 70px;
   position: absolute;
   width:85%;
   height:100%;
@@ -570,6 +525,7 @@ background-color:#a052ab;
 
 .virtual{
   position: absolute;
+  padding-left: 320px;
 }
 
 
