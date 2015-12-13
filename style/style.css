@@ -173,7 +173,7 @@ body {
 
 .social-media {
   text-align:center;
-  margin-top:100px;
+  
   margin-bottom: 100px;
 }
 
@@ -868,9 +868,7 @@ body
   width: 100%;
 }
 
-.socialmedia img{
-  vertical-align: none;
-}
+
 
 
 /*FORM CONTACT PAGE IMPORTANT TO FIX*/
@@ -1577,6 +1575,8 @@ a#openPopUp {
  
 
 /*RESPONSIVE*/
+
+/*1080*/
 
 @media (max-width:1080px) {
 
