@@ -1508,11 +1508,11 @@ a#openPopUp {
 
 }
 
-#nav ul li {
+  #nav ul li {
     display: inline-block;
 }
 
-#nav ul ul {
+  #nav ul ul {
     min-width:100%;
     background-color: #e6b2ed;
     border: 0px solid #d68fe0;
@@ -1520,4 +1520,9 @@ a#openPopUp {
     margin-left: 0px;
 }
 
-.lo
+@media (max-width: 700px){
+
+    #nav ul li {
+      display: inline-block;
+    }
+}
