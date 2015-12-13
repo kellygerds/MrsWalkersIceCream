@@ -171,7 +171,88 @@ body {
   height:380px;
 }
 
+.social-media {
+  text-align:center;
+  margin-top:100px;
+  margin-bottom: 100px;
+}
 
+.facebook {
+  background: url("../assets/images/facebook55.png") no-repeat center;
+  background-size: 40px;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.facebook:hover {
+  background-color: #a052ab;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.twitter {
+  background: url("../assets/images/twitter1.png") no-repeat center;
+  background-size: 40px;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.6s;
+}
+
+.twitter:hover {
+  background-color: #a052ab;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.instagram {
+  background: url("../assets/images/instagram12.png") no-repeat center;
+  background-size: 40px;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.instagram:hover {
+  background-color: #a052ab;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.foursquare {
+  background: url("../assets/images/foursquare5.png") no-repeat center;
+  background-size: 40px;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.foursquare:hover {
+  background-color: #a052ab;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
 
 
 
@@ -470,7 +551,7 @@ background-color:#a052ab;
 	-moz-column-gap: 10px;
 	-moz-column-fill: auto;
 	column-count: 2;
-	column-gap: 15px;
+	column-gap: 20px;
 	column-fill: auto;
 	text-align: center;
 }
@@ -525,7 +606,7 @@ background-color:#a052ab;
   width:85%;
   height:100%;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 200px;
 }
 
 .virtual{
