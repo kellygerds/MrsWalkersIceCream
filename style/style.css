@@ -57,10 +57,9 @@ body {
 
 .submit img{
   position: absolute;
-  margin-left: 550px;
-  margin-bottom: 400px;
-  width: 200px;
-  height: 100px;
+  margin-left: 650px;
+  width:75px;
+  height:40px;
 
 }
 /*HEADERS*/
