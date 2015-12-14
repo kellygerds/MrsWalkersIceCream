@@ -54,6 +54,15 @@ body {
 #cones{
   display: none;
 }
+
+.submit img{
+  position: absolute;
+  margin-left: 550px;
+  margin-bottom: 400px;
+  width: 200px;
+  height: 100px;
+
+}
 /*HEADERS*/
 
 .header-home {
