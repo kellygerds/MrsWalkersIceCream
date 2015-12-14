@@ -57,7 +57,7 @@ body {
 
 .submit img{
   position: absolute;
-  margin-left: 650px;
+  margin-left: 620px;
   width:75px;
   height:40px;
 
@@ -603,6 +603,9 @@ background-color:#a052ab;
   overflow: hidden;
   margin-bottom: 40px;
 }
+
+    
+
 
  .box-contact{
  background-color:#eac4f0;
