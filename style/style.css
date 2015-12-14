@@ -28,6 +28,7 @@ body {
 	margin:0 auto;
 	background-color:none;
 	margin-bottom:100px;
+
 }
 
 .footer{
@@ -48,6 +49,10 @@ body {
 .logo img{
     margin-left: 40px;
     margin-top: 50px;
+}
+
+#cones{
+  display: none;
 }
 /*HEADERS*/
 
@@ -1608,7 +1613,140 @@ a#openPopUp {
     width:100%;
 }
 
-@media (max-width: 700px){
+}
+
+@media (max-width: 850px){
+  
+  
+#cones {
+ display: block;
+ background-color: #eac4f0;
+ padding:55px;
+ height:500px;
+ text-align: center;
+ color: #fff;
+ vertical-align: center;
+ z-index: -2;
+ h1: font-size: 50px;
+}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+.columns {
+ display: none;
+}
+
+#cones {
+ display: block;
+ background-color: #eac4f0;
+ padding:55px;
+ height:1010px;
+ text-align: center;
+ color: #fff;
+ vertical-align: center;
+ z-index: -2;
+ h1: font-size: 50px;
+}
+
+
+ .footer{
+    display:none;
+  }
+
+  .logo img{
+    margin-left: 40px;
+    margin-top: 50px;
+    width:80%;
+    height:80%; 
+       
+}
+
+ #nav_wrapper {
+    background-color:#a052ab;
+    margin: 0 auto;
+    text-align: left;
+    height:48px;
+    margin-top:332px;
+    position:absolute;
+    left:0;
+    right:100px;
+    min-width:100%;
+
+}
+
+  #nav ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+  #nav ul ul {
+    min-width:100%;
+    background-color: #e6b2ed;
+    border: 0px solid #d68fe0;
+    border-top: 0;
+    margin-left: 0px;
+    width:100%;
+}
+.header-home {
+  background:url(../assets/images/homeicecream.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: absolute;
+  border-bottom: 10px solid #fff;
+  margin-top:70px;
+  width:100%;
+}
+
+.box{ /*purple*/
+
+  padding:0px;
+  margin:0px;
+  width:100%;
+  max-height:150px;
+ }
+
+.columns{ /**pink back**/
+  background-color: #eac4f0;
+  padding:0px;
+  padding-left: 20px;
+  float:center;
+  max-height:75px;
+  text-align: center;
+  color: #fff;
+  vertical-align: center;
+  z-index: -2;
+  h1: font-size: 50px;
+}
+
+#columns {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+.text{
+  background-color:#a052ab;
+  padding:20px;
+  text-align: left;
+  color: #fff;
+  font-family: Helvetica;
+}
+  .wrapper{
+    height: 2000px;
+    display: block;
+     }
+
+   .text{
+    position: 
+    height:;
+   }  
+
+@media (max-width: 480px){
 
     #nav ul li {
       display: inline-block;
